@@ -1,0 +1,17 @@
+# Répertoires source du projet
+INPUT                  = ./src ./src/utils ./src/renderer ./src/local_variables/ ./src/job_manager ./src/input_manager/ ./src/historical ./src/commands ./src/aliases ./include
+FILE_PATTERNS          = *.c */*.c *.h */*.h
+OUTPUT_DIRECTORY       = ./bonus/docs
+GENERATE_HTML          = YES
+SOURCE_BROWSER         = YES
+HAVE_DOT               = YES
+DOT_PATH               = /usr/bin/dot
+JAVADOC_AUTOBRIEF      = YES
+EXTRACT_ALL            = NO
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXCLUDE_PATTERNS       = */tmp/* */.git/*
+PROJECT_BRIEF          = "42sh Documentation"
+PROJECT_NAME           = "42sh"
+PROJECT_NUMBER         = 1.0
+

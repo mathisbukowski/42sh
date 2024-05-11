@@ -1,0 +1,11 @@
+.idea
+*.a
+*.o
+mysh
+tester.sh
+*.txt
+vgcore.*
+*.gcno
+*.gcda
+unit_tests
+42sh

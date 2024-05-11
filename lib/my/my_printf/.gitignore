@@ -1,0 +1,15 @@
+*.out
+*.o
+*.log
+*.gcda
+*.gcno
+*.*~
+*.*#
+*.a
+main.c
+unit_tests
+printf
+.#my_printf.c
+libmy
+libmy.a
+.idea
